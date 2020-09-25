@@ -1,2 +1,2 @@
 “＃HelloBeego” 
-学习Beego 框架的第一天
+学习Beego框架的每一天！
