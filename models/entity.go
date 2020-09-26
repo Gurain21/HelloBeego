@@ -4,3 +4,9 @@ type Person struct {
 	Age int `json:"age"`
 	Sex string `json:"sex"`
 }
+type Personal struct {
+	Name	string `json:"name"`
+	Birthday	string	`json:"birthday"`
+	Address	string	`json:"address"`
+	Nick	string `json:"nick"`
+}

@@ -18,7 +18,7 @@ func main() {
 
 	}
 	fmt.Println("监听端口",httpPort)
-	//beego.Run()
+
 	//"mysql", "root:123456@tcp(127.0.0.1:3306)/weather?charset=utf8"
 	db_dirver_name := config.String("db_dirver_name")
 	fmt.Println(db_dirver_name)
@@ -36,5 +36,6 @@ func main() {
 	//			root:123456@tcp(127.0.0.1:3306)/weather?charset=utf8
 
 	//fmt.Println(db_admin_name+":"+db_admin_pwd+"@tcp("+db_port+")/"+db_name+"?charset=utf8")
+	beego.Run()
 }
 
